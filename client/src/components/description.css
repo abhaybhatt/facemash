@@ -1,0 +1,9 @@
+.desc{
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

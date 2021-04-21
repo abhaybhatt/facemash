@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    object-fit: cover;
+    
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 500;
+}

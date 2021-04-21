@@ -1,0 +1,65 @@
+/*
+ * Reference - https://codepen.io/supah/pen/WwrJpw
+ */
+
+/* basic */
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	font: 16px/1.2 "Roboto", sans-serif;
+	color: #333;
+}
+
+.r{
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	background-color: #c7323c;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.info{
+	display: flex;
+	padding-left: 100px;
+}
+
+.out{
+	display: flex;
+	flex-direction: column;
+}
+
+/* container */
+.container {
+	width: 600px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.leaderboard{
+	font-size: xx-large;
+	padding: 100px;
+	font-weight: bolder;
+	color: #910112;
+}
+
+
+
+/* body */
+

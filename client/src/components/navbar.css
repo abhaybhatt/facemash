@@ -1,0 +1,19 @@
+.top{
+    height: 70px;
+    background-color: #910112;
+    color: white;  
+    display: flex;
+    align-items: center;
+}
+
+.head{
+    padding-left: 600px;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
