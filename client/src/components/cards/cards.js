@@ -22,7 +22,7 @@ const Cards = () =>{
         setPro1(Math.floor(Math.random() * profiless.length));
         setPro2(Math.floor(Math.random() * profiless.length));
 
-        if(pro1 === pro2){
+        while(pro1 === pro2){
             setPro2(Math.floor(Math.random() * profiless.length));
         }
     }
